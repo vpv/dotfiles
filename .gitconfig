@@ -1,3 +1,11 @@
 [user]
 	email = vpvainio@iki.fi
 	name = Ville-Pekka Vainio
+[color]
+	ui = auto
+[core]
+	editor = /usr/bin/vim
+[push]
+	default = matching
+[pull]
+	ff = only
