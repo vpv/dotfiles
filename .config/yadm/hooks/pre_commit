@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Taken from https://peterbabic.dev/blog/keep-gnome-shell-settings-dotfiles-yadm/
+dconfFile="$HOME/.config/dconf/settings.ini"
+
+dconf dump / > "$dconfFile"
+yadm add "$dconfFile"
+

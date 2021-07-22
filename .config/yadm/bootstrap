@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Because Git submodule commands cannot operate without a work tree, they must
+# be run from within $HOME (assuming this is the root of your dotfiles)
+cd "$HOME"
+
+echo "Init submodules"
+yadm submodule update --recursive --init
+
+# Taken from https://peterbabic.dev/blog/keep-gnome-shell-settings-dotfiles-yadm/
+dconf load / < "$HOME/.config/dconf/settings.ini"

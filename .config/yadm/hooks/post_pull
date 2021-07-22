@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Taken from https://b4d.sablun.org/blog/2019-05-30-from-pathogen-to-native-vim-package-loading-via-yadm/
+# Because Git submodule commands cannot operate without a work tree, they must
+# be run from within $HOME (assuming this is the root of your dotfiles)
+cd "$HOME"
+
+echo "Update submodules"
+yadm submodule update --recursive --remote
+
