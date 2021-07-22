@@ -1,0 +1,3 @@
+[submodule ".vim/pack/vpv/start/syntastic"]
+	path = .vim/pack/vpv/start/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
