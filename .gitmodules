@@ -1,3 +1,13 @@
-[submodule ".vim/pack/vpv/start/syntastic"]
-	path = .vim/pack/vpv/start/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
+[submodule ".vim/pack/vpv/start/nerdcommenter"]
+	path = .vim/pack/vpv/start/nerdcommenter
+	url = git@github.com:preservim/nerdcommenter
+[submodule ".vim/pack/vpv/start/vim-python-pep8-indent"]
+	path = .vim/pack/vpv/start/vim-python-pep8-indent
+	url = git@github.com:Vimjas/vim-python-pep8-indent
+[submodule ".vim/pack/vpv/start/ale"]
+	path = .vim/pack/vpv/start/ale
+	url = git@github.com:dense-analysis/ale
+[submodule ".vim/pack/vpv/start/coc.nvim"]
+	path = .vim/pack/vpv/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
+	branch = release
