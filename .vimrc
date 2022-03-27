@@ -27,8 +27,8 @@ python3 del powerline_setup
 " My own preferred settings begin
 "
 " Testing these two
-let mapleader = " "
-let maplocalleader = ","
+let mapleader = ","
+"let maplocalleader = ","
 
 set textwidth=80
 set colorcolumn=80
