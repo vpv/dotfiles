@@ -37,6 +37,10 @@ set colorcolumn=80
 
 " for po.vim
 let g:po_translator="Ville-Pekka Vainio <vpvainio@iki.fi>"
+
+" for rpm spec files
+let spec_chglog_format = "%a %b %d %Y Ville-Pekka Vainio <vpvainio@iki.fi>"
+
 "
 " My own preferred settings end
 "
