@@ -1,6 +1,7 @@
-audio.play_bitrate_non_metered_migrated=true
 audio.sync_bitrate_enumeration=4
+audio.play_bitrate_non_metered_migrated=true
+gaia.attached_device_id="8e8625f95499882bb2c7f58f5ca470a896bd1b36"
 audio.play_bitrate_enumeration=4
 audio.play_bitrate_non_metered_enumeration=4
 audio.normalize_v2=false
-app.player.volume=65536
+app.player.volume=24663
