@@ -1,8 +1,10 @@
 #!/bin/bash
 
+# This is a bit funny now that settings.ini is encrypted, but at least it will
+# update the dumped version every now and then.
+
 # Taken from https://peterbabic.dev/blog/keep-gnome-shell-settings-dotfiles-yadm/
 dconfFile="$HOME/.config/dconf/settings.ini"
 
 dconf dump / > "$dconfFile"
-yadm add "$dconfFile"
 
