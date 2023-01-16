@@ -1,4 +1,4 @@
 {
-"diagnostic.displayByAle": true,
+"comment_diagnostic.displayByAle": false,
 "coc.preferences.extensionUpdateCheck": "daily"
 }
