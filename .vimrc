@@ -1,6 +1,7 @@
 "
 " ALE settings needed right at the start (maybe?) begin
 "
+let g:ale_enabled = 0
 let g:ale_disable_lsp = 1
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
@@ -14,7 +15,7 @@ let g:ale_fixers = {
 "
 " Powerline settings needed right at the start begin
 "
-python3 import sys;sys.path.append("/usr/lib/python3.10/site-packages/")
+python3 import sys;sys.path.append("/usr/lib/python3.11/site-packages/")
 python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
@@ -32,6 +33,7 @@ let mapleader = ","
 
 set textwidth=80
 set colorcolumn=80
+set termguicolors
 " set ruler probably not needed with powerline
 "set ruler
 
