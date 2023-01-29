@@ -4,7 +4,7 @@
 [color]
 	ui = auto
 [core]
-	editor = /usr/bin/vim
+	editor = nvim
 [push]
 	default = matching
 [pull]

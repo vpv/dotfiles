@@ -8,3 +8,6 @@
 	path = .vim/pack/vpv/start/coc.nvim
 	url = git@github.com:neoclide/coc.nvim.git
 	branch = release
+[submodule ".local/share/nvim/packer.nvim"]
+	path = .local/share/nvim/site/pack/packer/start/packer.nvim
+	url = https://github.com/wbthomason/packer.nvim
