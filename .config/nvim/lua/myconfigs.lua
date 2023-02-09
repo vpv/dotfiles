@@ -1,3 +1,7 @@
+-- These should always be first
+require("mason").setup()
+require("mason-lspconfig").setup()
+
 -- Add additional capabilities supported by nvim-cmp
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
@@ -38,7 +42,7 @@ local on_attach = function(client, bufnr)
 end
 
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'pyright' }
+local servers = { 'pyright', 'sumneko_lua' }
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     on_attach = on_attach,
@@ -194,3 +198,16 @@ vim.cmd("colorscheme nightfox")
 
 -- Lualine
 require('lualine').setup()
+
+-- null-ls
+local null_ls = require("null-ls")
+
+null_ls.setup({
+  sources = {
+    null_ls.builtins.diagnostics.flake8,
+    --null_ls.builtins.diagnostics.pylint,
+    null_ls.builtins.formatting.isort,
+    null_ls.builtins.formatting.black,
+    null_ls.builtins.diagnostics.ruff,
+  },
+})
