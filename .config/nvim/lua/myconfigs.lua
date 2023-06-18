@@ -123,7 +123,7 @@ cmp.setup.cmdline(':', {
 -- nvim-treesitter setup
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the four listed parsers should always be installed)
-  ensure_installed = { "lua", "vim", "help", "python" },
+  ensure_installed = { "lua", "vim", "vimdoc", "python" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
