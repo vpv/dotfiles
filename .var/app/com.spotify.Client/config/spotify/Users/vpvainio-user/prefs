@@ -1,7 +1,8 @@
-audio.sync_bitrate_enumeration=4
+connect.mdns_devices="[{\"created_timestamp\":1750703245,\"device_id\":\"a493ac9099436dcc8461006108a463ba97510897\",\"device_info\":{\"addresses\":[\"192.168.3.35\"],\"availability\":\"any\",\"brand_display_name\":\"Yamaha\",\"client_id\":\"59c7bf046992472ab0689f5fc7fa08e2\",\"device_type\":\"avr\",\"get_info_json\":\"{\\\"status\\\":101,\\\"statusString\\\":\\\"OK\\\",\\\"spotifyError\\\":0,\\\"version\\\":\\\"2.9.0\\\",\\\"deviceID\\\":\\\"a493ac9099436dcc8461006108a463ba97510897\\\",\\\"deviceType\\\":\\\"AVR\\\",\\\"remoteName\\\":\\\"RX-V781 FAC872\\\",\\\"publicKey\\\":\\\"Fo5N7vvggEyTMFpZiR3BL2Y6lM5rWjCH3HsOzeOAdXN36G0KU/NQSyeiUp1QUSaXS4FgTIZYJ+Cmgda4JU0vOsp7W9w4UlbvSenlNXL/UpjhACGr9y4Q0PvOkouic17M\\\",\\\"brandDisplayName\\\":\\\"Yamaha\\\",\\\"modelDisplayName\\\":\\\"RX-V781\\\",\\\"libraryVersion\\\":\\\"3.163.106-ge3123edf\\\",\\\"resolverVersion\\\":\\\"0\\\",\\\"groupStatus\\\":\\\"NONE\\\",\\\"availability\\\":\\\"\\\",\\\"tokenType\\\":\\\"accesstoken\\\",\\\"clientID\\\":\\\"59c7bf046992472ab0689f5fc7fa08e2\\\",\\\"scope\\\":\\\"streaming\\\",\\\"productID\\\":111}\\u000a\",\"group_status\":\"NONE\",\"is_group\":false,\"library_version\":\"3.163.106-ge3123edf\",\"model_display_name\":\"RX-V781\",\"product_id\":\"111\",\"resolver_version\":\"0\",\"scope\":\"streaming\",\"should_send_wol\":false,\"token_type\":\"accesstoken\"},\"discovery_name\":\"RX-V781 FAC872._spotify-connect._tcp.local\",\"display_name\":\"RX-V781 FAC872\",\"hostname\":\"RX-V781-FAC872.local\",\"last_seen\":1750706183,\"page_uri\":\"/goform/spotifyConfig\",\"port\":80,\"public_ip\":\"80.222.231.89\",\"required_device_info\":{\"public_key\":\"Fo5N7vvggEyTMFpZiR3BL2Y6lM5rWjCH3HsOzeOAdXN36G0KU/NQSyeiUp1QUSaXS4FgTIZYJ+Cmgda4JU0vOsp7W9w4UlbvSenlNXL/UpjhACGr9y4Q0PvOkouic17M\",\"remote_name\":\"RX-V781 FAC872\",\"version\":\"2.9.0\"},\"ttl\":120,\"txt_records\":{\"CPath\":\"/goform/spotifyConfig\",\"VERSION\":\"1.0\"},\"verified_ip_idx\":0}]"
+connect.dial_devices="[]"
 audio.play_bitrate_non_metered_migrated=true
-audio.play_bitrate_enumeration=4
-audio.play_bitrate_non_metered_enumeration=4
-ui.right_panel_content=2
+audio.sync_bitrate_enumeration=4
 audio.normalize_v2=false
+audio.play_bitrate_non_metered_enumeration=4
+audio.play_bitrate_enumeration=4
 app.player.volume=40871
